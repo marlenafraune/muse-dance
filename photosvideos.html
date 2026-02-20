@@ -1,0 +1,317 @@
+<!-- <html>
+  <body>
+    <p>Hello</p>
+    <img src="img/Plover-Logo.png"/>
+  </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">-->
+<link rel="stylesheet" href="./mystyle.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-deep-purple" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-teal w3-xxlarge">Muse Dance</a>
+    <a href="aboutme.html" class="w3-bar-item w3-button w3-padding-large w3-white">About me</a>
+    <a href="accessibledance.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Accessible dance</a>
+    <a href="queerdance.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Queer dance</a>
+    <a href="weddinglessons.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Wedding Lessons</a>
+    <a href="photosvideos.html" class="w3-bar-item w3-button w3-padding-large w3-teal">Photos and Videos</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="aboutme.html" class="w3-bar-item w3-button w3-padding-large">About me</a>
+    <a href="accessibledance.html" class="w3-bar-item w3-button w3-padding-large">Accessible dance</a>
+    <a href="queerdance.html" class="w3-bar-item w3-button w3-padding-large">Queer dance</a>
+    <a href="weddinglessons.html" class="w3-bar-item w3-button w3-padding-large">Wedding Lessons</a>
+    <a href="photosvideos.html" class="w3-bar-item w3-button w3-padding-large">Photos and Videos</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-teal w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">Photos and Videos</h1>
+  <p class="w3-xlarge">See us in action</p>
+<!--  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button>-->
+</header>
+
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<p></p>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/dance/showcase2022.jpg">
+      <img src="img/dance/showcase2022.jpg" alt="Marlena, in salmon colored dress, posed with toe pointed at knee, with dance partner" width="600" height="400">
+    </a>
+    <div class="desc">Winter Showcase at Springs Rhythm, dancing cha cha fusion.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/dance/mattshow.jpg">
+      <img src="img/dance/mattshow.jpg" alt="Marlena, in a white dress, with arm raised, is stepping toward dance partner, who wears a vest and fedora" width="600" height="400">
+    </a>
+    <div class="desc">Dancing bolero with dance partner for a showcase in Denver</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/dance/leadingbachata.jpg">
+      <img src="img/dance/leadingbachata.jpg" alt="Marlena, in a black outfit and pink hip wrap, with arms rapped around dance partner in a pink shirt and black pants" width="600" height="400">
+    </a>
+    <div class="desc">Marlena leading male dance partner in bachata at competition</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/dance/sharksit.jpg">
+      <img src="img/dance/sharksit.jpg" alt="Marlena dressed in a shark onesie, wearing a pink innertube, sitting next to Matthew, dressed in a t-shirt and khaki shorts." width="600" height="400">
+    </a>
+    <div class="desc">Shark (Marlena) and fisherman drinking together after floor and chair dance. <!--Choreographed by Marlena Fraune and Matthew Owens.--></div>
+  </div>
+</div>
+
+ <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/dance/tangopair3.jpg">
+      <img src="img/dance/tangopair3.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Dancing Argentine tango in a three-person switch dance.</div>
+  </div>
+</div>
+
+
+ 
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/dance/sharkstand2.jpg">
+      <img src="img/dance/sharkstand2.jpg" alt="Dressed in a shark onesie, doing a shoulder stand on a chair." width="600" height="400">
+    </a>
+    <div class="desc">Dressed in a shark onesie, doing a shoulder stand on a chair.</div>
+  </div>
+</div>
+
+ 
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/dance/fierce.jpg">
+      <img src="img/dance/fierce.jpg" alt="Marlena with deep pink, purple, and green hair and green eyeshadow, wearing a green and black striped dress, staring fiercely into the camera" width="600" height="400">
+    </a>
+    <div class="desc">Dressed and ready to compete in Latin dances (rumba, cha cha, samba).</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/dance/robot.jpg">
+      <img src="img/dance/robot.jpg" alt="Marlena, dressed in a black outfit, with glowing blue lights laced in a robotic pattern from ankles to wrists." width="600" height="400">
+    </a>
+    <div class="desc">Rise of the robots. Includes chair dance, hand dance, and Argentine tango. <!--Choreographed by Vladimir Ischenko.--></div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/dance/scorpion.jpg">
+      <img src="img/dance/scorpion.jpg" alt="Marlena, dressed in red and black as a scorpion, is upside-down in the square yoga pose, supported by dance partner dressed in a frog onesie" width="600" height="400">
+    </a>
+    <div class="desc">The scorpion, asking the frog to trust them, during floor dance routine</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/dance/comparm.jpg">
+      <img src="img/dance/comparm.jpg" alt="Marlena, wearing a yellow and blue floor-length ballroom dress, posed in a corte (lunge) with Matthew, who is wearing all black, during an Americna tango competition dance." width="600" height="400">
+    </a>
+    <div class="desc">Competing in American Tango with dance partner</div>
+  </div>
+</div>
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/dance/complatin.jpg">
+      <img src="img/dance/complatin.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Competing in Latin (Rhythm) with dance instructor Vladimir</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/dance/compsmooth.jpg">
+      <img src="img/dance/compsmooth.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Competing in American Foxtrot with dance instructor Vladimir</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/dance/firstplace.jpg">
+      <img src="img/dance/firstplace.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Lining up to receive first place in American Smooth at competition</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/dance/seated.jpg">
+      <img src="img/dance/seated.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Dance performed seated and performed standing on one leg</div>
+  </div>
+</div>
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/dance/startrek.jpg">
+      <img src="img/dance/startrek.jpg" alt="Marlena, in a yellow star trek shirt, dancing with partner in a red star trek shirt" width="600" height="400">
+    </a>
+    <div class="desc">Social dancing at the space and alien themed competition</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/dance/oneleg.jpg">
+      <img src="img/dance/oneleg.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Dance performed seated and performed standing on one leg</div>
+  </div>
+</div>
+
+
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+	<p>*Some images are edited to remove distracting background features
+<!--  <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>-->
+</div>
+</style>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-teal w3-center w3-padding-64">  
+  <div class="w3-third w3-center">
+<!--    <img src="img/Plover-Logo-Color-Green-Text (1).png" height="200" alt="A small plover bird with a multicolored robotic wing symbiotically pecks at the 'teeth' of green text that says Plover and represents a crocodile's moth"/>-->
+  </div>
+  
+  <div class="w3-twothird">
+    <div class="w3-xlarge w3-padding-32">
+      <p>Copyright 2026 CrocMuse, LLC</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Footer >
+<footer class="w3-container w3-black w3-center w3-opacity w3-padding-64">  
+  <div class="w3-xlarge w3-padding-32">
+    <p>Copyright 2025 Plover: Human-Centered Technology Consulting, LLC</p>
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>-->
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
